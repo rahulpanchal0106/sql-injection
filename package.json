@@ -13,19 +13,20 @@
         "test": "grunt test"
     },
     "dependencies": {
+        "i": "^0.3.7",
         "raw-body": "~2.4.1"
     },
     "devDependencies": {
         "chai": "~4.3.4",
+        "express": "~4.17.1",
         "grunt": "~1.4.1",
+        "grunt-bump": "^0.8.0",
         "grunt-cli": "~1.4.3",
         "grunt-contrib-jshint": "~3.0.0",
         "grunt-contrib-watch": "~1.1.0",
-        "grunt-simple-mocha": "~0.4.1",
-        "grunt-bump": "~0.8.0",
+        "grunt-simple-mocha": "^0.4.1",
         "mocha": "~9.1.2",
-        "supertest": "~6.1.6",
-        "express": "~4.17.1"
+        "supertest": "~6.1.6"
     },
     "keywords": [
         "sql",
